@@ -6,6 +6,12 @@ import java.util.Scanner;
 public class Ex09 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Faça um programa que receba via teclado o tempo de duração de um evento em
+uma fábrica em uma a variável do tipo inteira (int) expressa em segundos e mostre-o
+expresso em horas, minutos e segundos.
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

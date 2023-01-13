@@ -7,6 +7,15 @@ import java.util.Scanner;
 public class Ex21 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * João e Maria estão querendo obter informações sobre Os carros da sua cidade.
+Para isso eles pediram que você escrevesse um programa para ajudá-los. Eles vão
+digitar Informações de três diferentes carros. Para cada carro serão lidos o ano e a
+velocidade. O programa deve exibir, o ano do carro mais novo e a velocidade do
+mais rápido.
+
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		int[] ano = new int[3];

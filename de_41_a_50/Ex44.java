@@ -6,6 +6,13 @@ import java.util.Scanner;
 public class Ex44 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Faça um programa que leia cinco números com dupla precisão(double)
+diferentes entre si e imprima: a Média dos ímpares, o Maior número par e a
+Diferença entre o maior e o menor número informado.
+
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		int impar = 0;

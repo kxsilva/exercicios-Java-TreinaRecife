@@ -6,6 +6,14 @@ import java.util.Scanner;
 public class Ex32 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Um posto de combustíveis deseja determinar qual de seus produtos tem a
+preferência de seus clientes. Escreva um programa para ler o tipo de combustível
+abastecido (codificado da seguinte forma: 1. Álcool 2. Gasolina 3. Diesel) e a
+quantidade de litros anotados em 5 abastecimentos realizados.
+
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		int c1 = 0, c2 = 0, c3 = 0;

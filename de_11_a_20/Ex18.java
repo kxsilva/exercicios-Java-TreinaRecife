@@ -6,6 +6,11 @@ import java.util.Scanner;
 public class Ex18 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Faça um programa que inverta um número inteiro com quatro algarismos.
+
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

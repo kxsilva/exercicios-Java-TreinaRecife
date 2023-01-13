@@ -6,6 +6,13 @@ import java.util.Scanner;
 public class Ex24 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 *  Um número é palíndromo se ele pode ser lido de trás para frente e ainda assim
+obtermos o mesmo valor. Por exemplo: 10301 é palíndromo, já 12342 não é. Então,
+dado um número de 5 algarismos, você deve determinar se ele é palíndromo.
+
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

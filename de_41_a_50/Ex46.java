@@ -6,6 +6,12 @@ import java.util.Scanner;
 public class Ex46 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Leia dois valores inteiros M e N. A cada leitura, calcule e escreva a soma dos
+fatoriais de cada um dos valores lidos. Utilize um tipo de variável apropriada, pois
+cálculo pode resultar em um valor com mais de 15 dígitos.
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

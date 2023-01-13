@@ -6,6 +6,13 @@ import java.util.Scanner;
 public class Ex31 {
 
 	public static void main(String[] args) {
+		/*
+		 * Faça um programa que leia as notas referentes às duas avaliações de um aluno.
+Calcule e imprima a média semestral. Faça com que o programa só aceita notas
+válidas (uma nota válida deve pertencer ao intervalo [0,10]). Cada nota deve ser
+validada separadamente.
+		 * */
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

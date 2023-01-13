@@ -6,6 +6,15 @@ import java.util.Scanner;
 public class Ex33 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Escreva um programa que leia um valor inteiro N. Este N é a quantidade de
+linhas de saída que serão apresentadas na execução do programa.
+
+7 	1 2 3 PUM
+	5 6 7 PUM
+	9 10 11 PUM
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

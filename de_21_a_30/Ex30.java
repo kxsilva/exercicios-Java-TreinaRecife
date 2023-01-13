@@ -6,6 +6,12 @@ import java.util.Scanner;
 public class Ex30 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Leia um conjunto 3 (três) pares de valores M e N. Para cada par lido, mostre a
+sequência do menor até o maior e a soma dos inteiros consecutivos entre eles
+(incluindo o N e M).
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		

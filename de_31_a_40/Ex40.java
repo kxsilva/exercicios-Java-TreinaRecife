@@ -6,6 +6,14 @@ import java.util.Scanner;
 public class Ex40 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Elabore um programa que receba três números inteiros representando os
+tamanhos dos lados de um triângulo. Verifique se os números informados formam
+um triângulo, ou seja, cada um dos lados informados tem que ser menor que a soma
+dos outros dois. Em caso positivo informar qual tipo de triângulo seria formado:
+
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

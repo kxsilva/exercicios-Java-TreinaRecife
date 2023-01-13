@@ -6,6 +6,13 @@ import java.util.Scanner;
 public class Ex08 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Elabore um programa que permita calcular o Imposto de Renda (IR) de um casal
+a partir das rendas do Homem (RH) e da Mulher (RM). O imposto é calculado sobre
+a renda conjunta (RC=RH+RM) de acordo com a tabela abaixo:
+		 * */
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

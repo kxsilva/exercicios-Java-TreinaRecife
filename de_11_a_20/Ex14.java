@@ -5,6 +5,12 @@ import java.util.Scanner;
 
 public class Ex14 {
 	public static void main(String[] args) {
+		
+		/*
+		 * Leia um valor inteiro X. Em seguida apresento os 6 valores ímpares
+consecutivos a partir do X, um valor por linha, Inclusive o X se for o caso.
+
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

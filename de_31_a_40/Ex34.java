@@ -6,6 +6,11 @@ import java.util.Scanner;
 public class Ex34 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * Escreva um programa que leia dois valores X e Y. A seguir, mostre uma
+sequência de 1 até Y, passando para a próxima linha a cada X números
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 

@@ -5,6 +5,14 @@ import java.util.Scanner;
 
 public class Ex15 {
 	public static void main(String[] args) {
+		
+		/*
+		 * A sequência de números 0 1 1 2 3 5 6 8 13 21 ... é conhecida como série de
+Fibonacci. Nesta sequência, cada número, depois dos 2 primeiros, é igual à soma
+dos 2 anteriores. Escreva um algoritmo que leia um inteiro N (N < 46) e mostre os N
+primeiros números dessa série.
+
+		 * */
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 
