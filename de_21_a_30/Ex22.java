@@ -52,8 +52,9 @@ dado o consumo de em m3
 		Scanner sc = new Scanner(System.in);
 		System.out.print("- "); 
 		int n = sc.nextInt();
-		
+		int i = 0;			
 		double gasto = 0;
+			
 		
 		if(n <= 10) {
 			gasto = 7;
